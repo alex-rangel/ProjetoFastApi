@@ -1,0 +1,24 @@
+# Ambientes virtuais
+venv/
+.env
+
+# Arquivos de banco de dados (ex: SQLite)
+*.db
+*.sqlite3
+
+# Cache e arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Pastas e arquivos do Alembic que não precisam ser ignorados:
+# (mantemos migrations/, mas ignoramos cache)
+alembic/__pycache__/
+
+# VSCode configs (se usar)
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
